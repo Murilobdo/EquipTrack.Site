@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { LoginPage } from "@/features/login/LoginPage";
 import { EquipmentPage } from "@/features/equipments/EquipmentsPage";
+import "./App.css";
 
 function App() {
 
