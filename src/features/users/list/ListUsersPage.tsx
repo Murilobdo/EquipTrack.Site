@@ -1,10 +1,10 @@
 "use client"
-import { EquipmentTable } from "@/components/equipments/EquipmentTable"
 import { Card } from "@/components/ui/card"
-import { CreateEquipment } from "@/features/equipments/create/CreateEquipment";
+import { CreateUser } from "../create/CreateUser";
+import { UsersTable } from "@/components/users/UsersTable";
 
 
-export function ListEquipmentsPage() {
+export function ListUsersPage() {
 
 
     return (
@@ -12,12 +12,10 @@ export function ListEquipmentsPage() {
             <div className="flex flex-col">
 
                 <Card className="px-4 py-2 mt-4">
-                    <CreateEquipment />
+                    <CreateUser />
                 </Card>
-
-
                 <div>
-                    <EquipmentTable />
+                    <UsersTable />
                 </div>
             </div>
         </div>

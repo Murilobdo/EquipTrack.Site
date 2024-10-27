@@ -5,6 +5,7 @@ import { ListEquipmentsPage } from "@/features/equipments/list/ListEquipmentsPag
 import { PublicLayout } from "@/layout/PublicLayout";
 import { PrivateLayout } from "@/layout/PrivateLayout";
 import "./App.css";
+import { ListUsersPage } from "./features/users/list/ListUsersPage";
 
 function App() {
 
@@ -20,6 +21,10 @@ function App() {
     {
       path: '/equipments',
       element: <PrivateLayout component={<ListEquipmentsPage />} />,
+    },
+    {
+      path: '/users',
+      element: <PrivateLayout component={<ListUsersPage />} />,
     },
   ]);
 
