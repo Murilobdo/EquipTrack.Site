@@ -11,7 +11,7 @@ function App() {
       element: <LoginPage />,
     },
     {
-      path: '/equipments',
+      path: '/get-equipments',
       element: <EquipmentPage />,
     },
   ]);
